@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-starter-mini",
+  "version": "0.1.0",
+  "author": "Andriy Leliv <andrii.leliv@gmail.com>",
+  "description": "The mini Gatsby starter",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andriyl/gatsby-starter-mini.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andriyl/gatsby-starter-mini/issues"
+  },
+  "homepage": "https://github.com/andriyl/gatsby-starter-mini#readme",
+  "keywords": [
+    "gatsby",
+    "starter"
+  ],
+  "dependencies": {
+    "gatsby": "^2.19.43",
+    "gatsby-image": "^2.2.43",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
