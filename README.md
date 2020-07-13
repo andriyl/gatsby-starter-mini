@@ -1,3 +1,3 @@
-# gatsby-starter-mini
-
-The mini Gatsby starter
+<h1 align="center">
+  Gatsby's mini starter
+</h1>
