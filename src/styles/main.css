@@ -1,0 +1,54 @@
+html,
+body,
+#___gatsby > div {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+}
+
+#___gatsby {
+  width: 90vw;
+  height: 84vh;
+  background: #e5eefe;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  height: 10vh;
+  min-height: 50px;
+  background: #fe9172;
+  width: 100%;
+  -webkit-border-top-left-radius: 24px;
+  -webkit-border-top-right-radius: 24px;
+  -moz-border-radius-topleft: 24px;
+  -moz-border-radius-topright: 24px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.logo {
+  display: flex;
+  align-self: center;
+  padding: 0 2rem;
+  font-weight: 700;
+}
+
+main {
+  height: 74vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}

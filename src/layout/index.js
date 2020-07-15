@@ -22,6 +22,9 @@ const Layout = ({ children }) => {
       >
         <html lang='en' />
       </Helmet>
+	    <header>
+		    <span className="logo">Logo</span>
+	    </header>
       <main>{children}</main>
     </>
   )

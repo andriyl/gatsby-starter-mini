@@ -3,7 +3,7 @@ import Layout from '../layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Home page</h1>
+    <h1>Gatsby's mini starter </h1>
   </Layout>
 )
 
